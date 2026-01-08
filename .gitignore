@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+.venv/
+major_cache.json
+major_cache_api.json
+*_with_majors.csv
+test_*.csv
+debug_*.py
+debug_*.html
+debug_*.png
+.specstory/
