@@ -171,6 +171,47 @@ python -m pytest tests/test_specific.py -v
 - Regional vs international team names
 - Inactive vs retired player status
 
+## Project Management and Progress Tracking
+
+### ROADMAP.md - Development Progress Tracking
+**CRITICAL**: This project uses `ROADMAP.md` for comprehensive progress tracking and planning.
+
+#### Usage Rules:
+1. **Always check ROADMAP.md first** before starting any development work
+2. **Update progress regularly** by checking off completed tasks ([ ] → [x])
+3. **Update status indicators** for each phase:
+   - ⏳ 待开始 (Not Started)
+   - 🔄 进行中 (In Progress)
+   - ✅ 已完成 (Completed)
+4. **Add new tasks** if you discover additional work during implementation
+5. **Update milestone table** when phases are completed
+6. **Record significant decisions** in the update log section
+
+#### Current Development Status:
+- **Active Phase**: Phase 1 - Project Infrastructure (⏳ 待开始)
+- **Next Milestone**: Runnable game engine + Ollama environment
+- **Overall Progress**: 0/5 phases completed
+
+#### Key Performance Targets:
+- Phase 2: <6 average guesses (API baseline)
+- Phase 3: <5 average guesses (optimized)
+- Phase 4: 10%+ improvement (fine-tuned)
+- Phase 5: <4 average guesses (SOTA target)
+
+### Development Workflow:
+1. Check current phase in ROADMAP.md
+2. Review specific tasks and requirements
+3. Implement according to technical specifications in claude_plan.md
+4. Update progress in ROADMAP.md
+5. Move to next task/phase when completed
+
 ## Current Status
 
-This is a new project with only foundational files (LICENSE, README.md). The codebase is ready for initial development and structure setup.
+**Project Stage**: Foundation Complete, Ready for Phase 1 Implementation
+**Key Assets**:
+- ✅ Player dataset (202+ players with 6 dimensions)
+- ✅ Technical architecture planned (claude_plan.md)
+- ✅ Development roadmap defined (ROADMAP.md)
+- ✅ Documentation complete (README.md, CLAUDE.md)
+
+**Next Action**: Begin Phase 1 - Project Infrastructure Setup
